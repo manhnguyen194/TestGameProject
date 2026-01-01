@@ -1,0 +1,148 @@
+{
+    "items": [
+        {
+            "id": 0,
+            "name": "Empty",
+            "sprite": "",
+            "description": "",
+            "stackable": false,
+            "max_stack": 1,
+            "type": "none"
+        },
+        {
+            "id": 1,
+            "name": "Old Key",
+            "sprite": "spr_item_key",
+            "description": "Opens old wooden doors",
+            "stackable": false,
+            "max_stack": 1,
+            "type": "key"
+        },
+        {
+            "id": 2,
+            "name": "Gold Key",
+            "sprite": "spr_item_key_gold",
+            "description": "Opens treasure chests",
+            "stackable": false,
+            "max_stack": 1,
+            "type": "key"
+        },
+        {
+            "id": 1,
+            "name": "Old Key",
+            "sprite": "spr_item_key",
+            "description": "Opens old doors",
+            "stackable": false,
+            "max_stack": 1,
+            "type": "key"
+        },
+        {
+            "id": 10,
+            "name": "Health Potion",
+            "sprite": "spr_item_potion_red",
+            "description": "Restores 25 HP",
+            "stackable": true,
+            "max_stack": 10,
+            "type": "consumable",
+            "heal_amount": 25
+        },
+        {
+            "id": 11,
+            "name": "Mana Potion",
+            "sprite": "spr_item_potion_blue",
+            "description": "Restores 25 MP",
+            "stackable": true,
+            "max_stack": 10,
+            "type": "consumable",
+            "mana_amount": 20
+        },
+        {
+            "id": 12,
+            "name": "Stamina Potion",
+            "sprite": "spr_item_potion_green",
+            "description": "Restores 30 Stamina",
+            "stackable": true,
+            "max_stack": 10,
+            "type": "consumable",
+            "stamina_amount": 30
+        },
+        {
+            "id": 13,
+            "name": "Apple",
+            "sprite": "spr_item_apple",
+            "description": "Restores 10 HP",
+            "stackable": true,
+            "max_stack": 10,
+            "type": "consumable",
+            "heal_amount": 10
+        },
+        {
+            "id": 100,
+            "name": "Wooden Sword",
+            "sprite": "spr_item_sword_wood",
+            "description": "A basic training sword",
+            "stackable": false,
+            "max_stack": 1,
+            "type": "weapon",
+            "damage": 5,
+            "attack_speed": 1.0
+        },
+        {
+            "id": 101,
+            "name": "Iron Sword",
+            "sprite": "spr_item_sword_iron",
+            "description": "A sturdy iron blade",
+            "stackable": false,
+            "max_stack": 1,
+            "type": "weapon",
+            "damage": 12,
+            "attack_speed": 1.0
+        },
+        {
+            "id": 200,
+            "name": "Leather Armor",
+            "sprite": "spr_item_armor_leather",
+            "description": "Basic protection (+3 DEF)",
+            "stackable": false,
+            "max_stack": 1,
+            "type": "armor",
+            "defense": 3
+        },
+        {
+            "id": 300,
+            "name": "Wood",
+            "sprite": "spr_item_wood",
+            "description": "Common crafting material",
+            "stackable": true,
+            "max_stack": 99,
+            "type": "material"
+        },
+        {
+            "id": 301,
+            "name": "Iron Ore",
+            "sprite": "spr_item_iron",
+            "description": "Can be smelted into iron bars",
+            "stackable": true,
+            "max_stack": 99,
+            "type": "material"
+        },
+        {
+            "id": 302,
+            "name": "Gold Nugget",
+            "sprite": "spr_item_gold",
+            "description": "Valuable material",
+            "stackable": true,
+            "max_stack": 99,
+            "type": "material"
+        },
+        {
+            "id": 400,
+            "name": "Gold Coin",
+            "sprite": "spr_item_coin",
+            "description": "Currency",
+            "stackable": true,
+            "max_stack": 999,
+            "type": "material"
+        }
+    ]
+}
