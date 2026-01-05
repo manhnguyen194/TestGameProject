@@ -1,3 +1,4 @@
+// abcd
 right_key = keyboard_check(ord("D"));
 left_key = keyboard_check(ord("A"));
 up_key = keyboard_check(ord("W"));
